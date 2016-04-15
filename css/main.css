@@ -16,6 +16,10 @@ html {
   font-family: sans-serif;
 }
 
+body{
+  background-color: #b3e0ff;
+}
+
 .youth-bone svg{
   font-family: 'Arvo', serif;
   font-weight: 700;
@@ -34,7 +38,6 @@ svg {
   height: auto;
   position: absolute;
   top: 10px;
-
 }
 
 .medallion {
@@ -63,4 +66,8 @@ svg {
   width: 600px;
   position: absolute;
   z-index: 1;
+}
+
+[data-stellar-ratio] {
+  position: relative;
 }
