@@ -4,43 +4,68 @@ $('body').stellar();
 
 // Counting numbers up
 
-var $number = $('#number');
-var numberMax = parseInt($number.attr('data-max'), 10);
+var $percentnumber = $('#percentnumber');
+var percentnumberMax = parseInt($percentnumber.attr('data-max'), 10);
 var current = 0;
-console.log(numberMax);
 
-// Small numbers
-var updatenumber = function () {
+var $millionnumber = $('#millionnumber');
+var millionnumberMax = parseInt($millionnumber.attr('data-max'), 10);
+var currentmillion = 0;
+
+var $numberBig = $('#numberBig');
+var numberBigMax = parseInt($numberBig.attr('data-max'), 10);
+var currentBig = 0;
+// console.log(numberMax);
+
+// % numbers
+var updatepercentnumber = function () {
   current += 1;
-  $number.html(current.toLocaleString() + '%');
+  $percentnumber.html(current.toLocaleString() + '%');
+  updateTickpercent();
+};
+
+var updateTickpercent = function () {
+  if (current < percentnumberMax) {
+    requestAnimationFrame(updatepercentnumber);
+  } else {
+    $percentnumber.html(percentnumberMax.toLocaleString() + '%');
+  }
+};
+
+updatepercentnumber();
+
+// 30 Million Medallion
+var updatemillionnumber = function () {
+  currentmillion += 1;
+  $millionnumber.html(currentmillion.toLocaleString());
   updateTick();
 };
 
 var updateTick = function () {
-  if (current < numberMax) {
-    requestAnimationFrame(updatenumber);
+  if (currentmillion < millionnumberMax) {
+    requestAnimationFrame(updatemillionnumber);
   } else {
-    $number.html(numberMax.toLocaleString() + '%');
+    $millionnumber.html(millionnumberMax.toLocaleString());
   }
 };
 
-updatenumber();
+updatemillionnumber();
 
-// Big numbers
+// 775,000
 var updatenumberBig = function () {
-  current += 2500;
-  $number.html(current.toLocaleString());
-  updateTick();
+  currentBig += 17500;
+  $numberBig.html(currentBig.toLocaleString());
+  updateTickBig();
 };
 
 var updateTickBig = function () {
-  if (current < numberMax) {
-    requestAnimationFrame(updateLength);
+  if (currentBig < numberBigMax) {
+    requestAnimationFrame(updatenumberBig);
   } else {
-    $number.html(numberMax.toLocaleString());
+    $numberBig.html(numberBigMax.toLocaleString());
   }
 };
 
-updatenumber();
+updatenumberBig();
 
 
