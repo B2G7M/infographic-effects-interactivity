@@ -32,9 +32,8 @@ svg {
   height: 100%;
 }
 
-
 .set-hut {
-  width: 15%;
+  width: 8em;
   height: auto;
   position: absolute;
   top: 10px;
@@ -49,17 +48,13 @@ svg {
 }
 
 .top-bar {
+  width: 100%;
   top: 10px;
-
+  height: 10px;
 }
 
 .sixty-two {
   width: 200px;
-
-}
-
-.youth {
-
 }
 
 .bone {
