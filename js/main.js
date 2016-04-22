@@ -1,6 +1,6 @@
-$('.nav').localScroll();
+// $('.nav').localScroll();
 
-$('body').stellar();
+// $('body').stellar();
 
 // Counting numbers up
 
@@ -32,8 +32,6 @@ var updateTickpercent = function () {
   }
 };
 
-updatepercentnumber();
-
 // 30 Million Medallion
 var updatemillionnumber = function () {
   currentmillion += 1;
@@ -49,8 +47,6 @@ var updateTick = function () {
   }
 };
 
-updatemillionnumber();
-
 // 775,000
 var updatenumberBig = function () {
   currentBig += 17500;
@@ -65,7 +61,3 @@ var updateTickBig = function () {
     $numberBig.html(numberBigMax.toLocaleString());
   }
 };
-
-updatenumberBig();
-
-

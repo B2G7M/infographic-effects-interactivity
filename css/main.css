@@ -30,6 +30,13 @@ svg {
   display: block;
   width: 100%;
   height: 100%;
+  transition: all 200ms ease-in;
+  opacity: 0;
+}
+
+.opacity {
+  opacity: 1;
+  animation: jiggle 250ms linear;
 }
 
 .set-hut {
@@ -37,6 +44,7 @@ svg {
   height: auto;
   position: absolute;
   top: 5px;
+  opacity: 1;
 }
 
 .medallion {
@@ -51,6 +59,7 @@ svg {
   width: 100%;
   top: 10px;
   height: 10px;
+  opacity: 1;
 }
 
 .sixty-two {
@@ -65,4 +74,11 @@ svg {
 
 [data-stellar-ratio] {
   position: relative;
+}
+
+
+@media (max-width: 1200px) {
+  .island-big {
+    margin: 5em;
+  }
 }
