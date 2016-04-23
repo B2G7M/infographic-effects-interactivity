@@ -47,13 +47,13 @@ svg {
   opacity: 1;
 }
 
-.medallion {
+/*.medallion {
   width: 160px;
 }
 
 .neurological-damage {
   width: 200px;
-}
+}*/
 
 .top-bar {
   width: 100%;
@@ -76,9 +76,8 @@ svg {
   position: relative;
 }
 
-
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
   .island-big {
     margin: 5em;
   }
-}
+}*/
