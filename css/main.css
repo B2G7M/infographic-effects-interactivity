@@ -44,14 +44,15 @@ svg:hover {
   animation: float 1s ease infinite alternate;
 }
 
-/*.float {
+/* .float {
   animation: float 1s ease infinite alternate;
 }
 */
+
 @keyframes float {
 
   to {
-    transform: translateY(10);
+    transform: translateY(10px);
   }
 
   from {
