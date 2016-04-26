@@ -1,7 +1,3 @@
-// $('.nav').localScroll();
-
-// $('body').stellar();
-
 // Counting numbers up
 
 var $percentnumber = $('#percentnumber');
@@ -15,6 +11,11 @@ var currentmillion = 0;
 var $numberBig = $('#numberBig');
 var numberBigMax = parseInt($numberBig.attr('data-max'), 10);
 var currentBig = 0;
+
+var $numbersixtytwo = $('#numbersixtytwo');
+var numbersixtytwoMax = parseInt($numbersixtytwo.attr('data-max'), 10);
+var currentnumbersixtytwo = 0;
+
 // console.log(numberMax);
 
 // % numbers
