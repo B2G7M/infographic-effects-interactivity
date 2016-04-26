@@ -23,7 +23,7 @@ $neuro.waypoint(function (direction) {
   } else {
     $neuro.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $30.waypoint(function (direction) {
   if (direction == 'down') {
@@ -32,7 +32,7 @@ $30.waypoint(function (direction) {
   } else {
     $30.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $775000.waypoint(function (direction) {
   if (direction == 'down') {
@@ -41,7 +41,7 @@ $775000.waypoint(function (direction) {
   } else {
     $775000.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $injury.waypoint(function (direction) {
   if (direction == 'down') {
@@ -49,7 +49,7 @@ $injury.waypoint(function (direction) {
   } else {
     $injury.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $62.waypoint(function (direction) {
   if (direction == 'down') {
@@ -57,7 +57,7 @@ $62.waypoint(function (direction) {
   } else {
     $62.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $percents.waypoint(function (direction) {
   if (direction == 'down') {
@@ -65,7 +65,7 @@ $percents.waypoint(function (direction) {
   } else {
     $percents.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $hip.waypoint(function (direction) {
   if (direction == 'down') {
@@ -73,7 +73,7 @@ $hip.waypoint(function (direction) {
   } else {
     $hip.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $youth.waypoint(function (direction) {
   if (direction == 'down') {
@@ -81,7 +81,7 @@ $youth.waypoint(function (direction) {
   } else {
     $youth.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $injuries.waypoint(function (direction) {
   if (direction == 'down') {
@@ -89,7 +89,7 @@ $injuries.waypoint(function (direction) {
   } else {
     $injuries.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $finger.waypoint(function (direction) {
   if (direction == 'down') {
@@ -97,7 +97,7 @@ $finger.waypoint(function (direction) {
   } else {
     $finger.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $50.waypoint(function (direction) {
   if (direction == 'down') {
@@ -105,7 +105,7 @@ $50.waypoint(function (direction) {
   } else {
     $50.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $over.waypoint(function (direction) {
   if (direction == 'down') {
@@ -113,7 +113,7 @@ $over.waypoint(function (direction) {
   } else {
     $over.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $knee.waypoint(function (direction) {
   if (direction == 'down') {
@@ -121,7 +121,7 @@ $knee.waypoint(function (direction) {
   } else {
     $knee.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $baseball.waypoint(function (direction) {
   if (direction == 'down') {
@@ -129,7 +129,7 @@ $baseball.waypoint(function (direction) {
   } else {
     $baseball.removeClass('opacity')
   }
-}, { offset: '70%'} );
+}, { offset: '60%'} );
 
 $age.waypoint(function (direction) {
   if (direction == 'down') {

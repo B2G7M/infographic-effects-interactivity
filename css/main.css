@@ -16,13 +16,47 @@ html {
   font-family: sans-serif;
 }
 
-body{
+body {
   background-color: #b3e0ff;
 }
 
-.youth-bone svg{
-  font-family: 'Arvo', serif;
+.youth-bone svg {
+  font-family: "Arvo", serif;
   font-weight: 700;
+}
+
+.bonemove {
+  animation: bonemove 1s ease infinite alternate;
+}
+
+@keyframes bonemove {
+
+  to {
+    transform: translateX(10);
+  }
+
+  from {
+    transform: translateX(-10px);
+  }
+}
+
+svg:hover {
+  animation: float 1s ease infinite alternate;
+}
+
+/*.float {
+  animation: float 1s ease infinite alternate;
+}
+*/
+@keyframes float {
+
+  to {
+    transform: translateY(10);
+  }
+
+  from {
+    transform: translateY(-10px);
+  }
 }
 
 svg {
@@ -47,14 +81,6 @@ svg {
   opacity: 1;
 }
 
-/*.medallion {
-  width: 160px;
-}
-
-.neurological-damage {
-  width: 200px;
-}*/
-
 .top-bar {
   width: 100%;
   top: 10px;
@@ -75,9 +101,3 @@ svg {
 [data-stellar-ratio] {
   position: relative;
 }
-
-/*@media (max-width: 1200px) {
-  .island-big {
-    margin: 5em;
-  }
-}*/
