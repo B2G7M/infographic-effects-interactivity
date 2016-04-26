@@ -16,8 +16,6 @@ var $numbersixtytwo = $('#numbersixtytwo');
 var numbersixtytwoMax = parseInt($numbersixtytwo.attr('data-max'), 10);
 var currentnumbersixtytwo = 0;
 
-// console.log(numberMax);
-
 // % numbers
 var updatepercentnumber = function () {
   current += 1;
