@@ -26,7 +26,19 @@ body {
 }
 
 .bonemove {
+  -webkit-animation: bonemove 1s ease infinite alternate;
   animation: bonemove 1s ease infinite alternate;
+}
+
+@-webkit-keyframes bonemove {
+
+  to {
+    -webkit-transform: translateX(10px);
+  }
+
+  from {
+    -webkit-transform: translateX(-10px);
+  }
 }
 
 @keyframes bonemove {
@@ -41,6 +53,7 @@ body {
 }
 
 svg:hover {
+  -webkit-animation: float 1s ease infinite alternate;
   animation: float 1s ease infinite alternate;
 }
 
@@ -48,6 +61,17 @@ svg:hover {
   animation: float 1s ease infinite alternate;
 }
 */
+
+@-webkit-keyframes float {
+
+  to {
+    -webkit-transform: translateY(10px);
+  }
+
+  from {
+    -webkit-transform: translateY(-10px);
+  }
+}
 
 @keyframes float {
 
