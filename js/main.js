@@ -10,7 +10,7 @@ var millionnumberMax = parseInt($millionnumber.attr('data-max'), 10);
 var currentmillion = 0;
 var updateTick = 0;
 
-var $numberBig = $('#numberBig');
+var $numberBig = $('#numberbig');
 var numberBigMax = parseInt($numberBig.attr('data-max'), 10);
 var currentBig = 0;
 var updatenumberBig = 0;
