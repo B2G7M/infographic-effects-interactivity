@@ -102,3 +102,7 @@ svg {
 [data-stellar-ratio] {
   position: relative;
 }
+
+h1 {
+  display: none;
+}

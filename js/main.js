@@ -3,18 +3,22 @@
 var $percentnumber = $('#percentnumber');
 var percentnumberMax = parseInt($percentnumber.attr('data-max'), 10);
 var current = 0;
+var updateTickpercent = 0;
 
 var $millionnumber = $('#millionnumber');
 var millionnumberMax = parseInt($millionnumber.attr('data-max'), 10);
 var currentmillion = 0;
+var updateTick = 0;
 
 var $numberBig = $('#numberBig');
 var numberBigMax = parseInt($numberBig.attr('data-max'), 10);
 var currentBig = 0;
+var updatenumberBig = 0;
 
 var $numbersixtytwo = $('#numbersixtytwo');
 var numbersixtytwoMax = parseInt($numbersixtytwo.attr('data-max'), 10);
 var currentnumbersixtytwo = 0;
+var updateTickBig = 0;
 
 // % numbers
 var updatepercentnumber = function () {
